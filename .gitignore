@@ -11,7 +11,6 @@
 *.userprefs
 
 # Build results
-[Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -19,7 +18,6 @@
 [Xx]86/
 [Bb]uild/
 bld/
-[Bb]in/
 [Oo]bj/
 
 # Visual Studio 2015 cache/options directory
@@ -243,3 +241,34 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/NWN2ToIB2Tools/bin/Debug/GlacialTreeList.dll
+/NWN2ToIB2Tools/bin/Debug/LZMALibrary.dll
+/NWN2ToIB2Tools/bin/Debug/ManagedElectron.dll
+/NWN2ToIB2Tools/bin/Debug/Microsoft.DirectX.xml
+/NWN2ToIB2Tools/bin/Debug/Microsoft.DirectX.dll
+/NWN2ToIB2Tools/bin/Debug/Microsoft.DirectX.DirectInput.xml
+/NWN2ToIB2Tools/bin/Debug/Microsoft.DirectX.DirectInput.dll
+/NWN2ToIB2Tools/bin/Debug/Microsoft.DirectX.Direct3DX.xml
+/NWN2ToIB2Tools/bin/Debug/Microsoft.DirectX.Direct3DX.dll
+/NWN2ToIB2Tools/bin/Debug/Microsoft.DirectX.Direct3D.xml
+/NWN2ToIB2Tools/bin/Debug/Microsoft.DirectX.Direct3D.dll
+/NWN2ToIB2Tools/bin/Debug/Microsoft.DirectX.AudioVideoPlayback.xml
+/NWN2ToIB2Tools/bin/Debug/Microsoft.DirectX.AudioVideoPlayback.dll
+/NWN2ToIB2Tools/bin/Debug/SourceLibrary.dll
+/NWN2ToIB2Tools/bin/Debug/SourceGrid2.dll
+/NWN2ToIB2Tools/bin/Debug/SharpZipLib.dll
+/NWN2ToIB2Tools/bin/Debug/Sano.Utility.dll
+/NWN2ToIB2Tools/bin/Debug/Sano.PersonalProjects.ColorPicker.Controls.dll
+/NWN2ToIB2Tools/bin/Debug/SandBar.dll
+/NWN2ToIB2Tools/bin/Debug/QWhale.Syntax.dll
+/NWN2ToIB2Tools/bin/Debug/QWhale.Editor.dll
+/NWN2ToIB2Tools/bin/Debug/QWhale.Common.dll
+/NWN2ToIB2Tools/bin/Debug/OEIShared.dll
+/NWN2ToIB2Tools/bin/Debug/OEILocalization.dll
+/NWN2ToIB2Tools/bin/Debug/NWN2ToIB2Tools.vshost.exe.manifest
+/NWN2ToIB2Tools/bin/Debug/NWN2ToIB2Tools.vshost.exe.config
+/NWN2ToIB2Tools/bin/Debug/NWN2ToIB2Tools.vshost.exe
+/NWN2ToIB2Tools/bin/Debug/NWN2ToIB2Tools.exe.config
+/NWN2ToIB2Tools/bin/Debug/NWN2ToIB2Tools.exe
+/NWN2ToIB2Tools/bin/Debug/Newtonsoft.Json.dll
+/NWN2ToIB2Tools/bin/Debug/Newtonsoft.Json.xml

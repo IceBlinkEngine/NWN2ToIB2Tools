@@ -1,0 +1,18 @@
+184395 Plot-H&C
+184348 Armor-H&C
+184348|184382|184383 Armor-Shields
+184350 Misc
+184363 Weapons
+
+
+
+"Head", 
+"Neck", 
+"Armor", 
+"Ranged", 
+"Melee", 
+"General", 
+"Ring", 
+"Shield", 
+"Feet", 
+"Ammo"
