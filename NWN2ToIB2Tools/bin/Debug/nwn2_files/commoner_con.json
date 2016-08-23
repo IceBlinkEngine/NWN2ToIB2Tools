@@ -1,0 +1,838 @@
+{
+  "ConvoFileName": "commoner_con",
+  "Narration": false,
+  "PartyChat": false,
+  "SpeakToMainPcOnly": false,
+  "NpcPortraitBitmap": "ptr_commoner_con",
+  "DefaultNpcName": "commoner_con",
+  "subNodes": [
+    {
+      "idNum": 0,
+      "pcNode": true,
+      "linkTo": 0,
+      "ShowOnlyOnce": false,
+      "NodeIsActive": true,
+      "NodePortraitBitmap": "",
+      "NodeNpcName": "",
+      "conversationText": "root",
+      "IsExpanded": true,
+      "subnodePointer": [],
+      "syncStructs": [],
+      "subNodes": [
+        {
+          "idNum": 1,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": true,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Well, well, well.  Drawn Swords' very own ill-looking stranger.  How do you do?  And while we're at it--[<i>Looking around mischievously</i>]--Tell me, <Subrace>, are you here to kill us all?",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [
+            {
+              "Index": 0,
+              "ShowOnce": false,
+              "IsChild": false,
+              "conditions": []
+            },
+            {
+              "Index": 1,
+              "ShowOnce": false,
+              "IsChild": false,
+              "conditions": []
+            },
+            {
+              "Index": 2,
+              "ShowOnce": false,
+              "IsChild": false,
+              "conditions": []
+            },
+            {
+              "Index": 6,
+              "ShowOnce": false,
+              "IsChild": false,
+              "conditions": []
+            },
+            {
+              "Index": 9,
+              "ShowOnce": false,
+              "IsChild": false,
+              "conditions": []
+            }
+          ],
+          "subNodes": [
+            {
+              "idNum": 26,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "conversationText": "I may be a <Subrace>, but I have no ill will toward you or anyone else in Drawn Swords, for that matter.",
+              "IsExpanded": true,
+              "subnodePointer": [],
+              "syncStructs": [
+                {
+                  "Index": 11,
+                  "ShowOnce": false,
+                  "IsChild": false,
+                  "conditions": []
+                }
+              ],
+              "subNodes": [
+                {
+                  "idNum": 12,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "conversationText": "[<i>To the others in the inn</i>.]  Hear, hear!  The stranger is a <Subrace> of a different color, or at least a different heart.  Says <he/she>'s on <i>our</i> side!",
+                  "IsExpanded": true,
+                  "subnodePointer": [],
+                  "syncStructs": [
+                    {
+                      "Index": 3,
+                      "ShowOnce": false,
+                      "IsChild": false,
+                      "conditions": []
+                    }
+                  ],
+                  "subNodes": [
+                    {
+                      "idNum": 29,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "conversationText": "Continue",
+                      "IsExpanded": true,
+                      "subnodePointer": [],
+                      "syncStructs": [
+                        {
+                          "Index": 12,
+                          "ShowOnce": false,
+                          "IsChild": false,
+                          "conditions": []
+                        }
+                      ],
+                      "subNodes": [
+                        {
+                          "idNum": 13,
+                          "pcNode": false,
+                          "linkTo": 0,
+                          "ShowOnlyOnce": false,
+                          "NodeIsActive": true,
+                          "NodePortraitBitmap": "",
+                          "NodeNpcName": "",
+                          "conversationText": "[<i>The jovial crowd strikes up a cheer.</i>]  Say, you hear that?  That's the sound of the approval of Drawn Swords.  Congratulations.",
+                          "IsExpanded": true,
+                          "subnodePointer": [],
+                          "syncStructs": [
+                            {
+                              "Index": 4,
+                              "ShowOnce": false,
+                              "IsChild": false,
+                              "conditions": []
+                            }
+                          ],
+                          "subNodes": [
+                            {
+                              "idNum": 30,
+                              "pcNode": true,
+                              "linkTo": 0,
+                              "ShowOnlyOnce": false,
+                              "NodeIsActive": true,
+                              "NodePortraitBitmap": "",
+                              "NodeNpcName": "",
+                              "conversationText": "Continue",
+                              "IsExpanded": true,
+                              "subnodePointer": [],
+                              "syncStructs": [],
+                              "subNodes": [],
+                              "actions": [],
+                              "conditions": [],
+                              "isLink": false
+                            }
+                          ],
+                          "actions": [],
+                          "conditions": [],
+                          "isLink": false
+                        }
+                      ],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            },
+            {
+              "idNum": 27,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "conversationText": "Not unless <i>you</i> give me good reason.",
+              "IsExpanded": true,
+              "subnodePointer": [],
+              "syncStructs": [
+                {
+                  "Index": 13,
+                  "ShowOnce": false,
+                  "IsChild": false,
+                  "conditions": []
+                }
+              ],
+              "subNodes": [
+                {
+                  "idNum": 14,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "conversationText": "I meant no offense, stranger.  Your kind is rarely seen here, is all.",
+                  "IsExpanded": true,
+                  "subnodePointer": [],
+                  "syncStructs": [
+                    {
+                      "Index": 5,
+                      "ShowOnce": false,
+                      "IsChild": false,
+                      "conditions": []
+                    },
+                    {
+                      "Index": 7,
+                      "ShowOnce": false,
+                      "IsChild": false,
+                      "conditions": []
+                    },
+                    {
+                      "Index": 8,
+                      "ShowOnce": false,
+                      "IsChild": false,
+                      "conditions": []
+                    },
+                    {
+                      "Index": 9,
+                      "ShowOnce": false,
+                      "IsChild": true,
+                      "conditions": []
+                    }
+                  ],
+                  "subNodes": [
+                    {
+                      "idNum": 31,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "conversationText": "That may be, but your manners are not all they should be.  Beware, lest your next mysterious stranger harbors ill will--I myself have none. ",
+                      "IsExpanded": true,
+                      "subnodePointer": [],
+                      "syncStructs": [
+                        {
+                          "Index": 11,
+                          "ShowOnce": false,
+                          "IsChild": true,
+                          "conditions": []
+                        }
+                      ],
+                      "subNodes": [
+                        {
+                          "idNum": 100185,
+                          "pcNode": true,
+                          "linkTo": 12,
+                          "ShowOnlyOnce": false,
+                          "NodeIsActive": true,
+                          "NodePortraitBitmap": "",
+                          "NodeNpcName": "",
+                          "conversationText": "Continue",
+                          "IsExpanded": true,
+                          "subnodePointer": [],
+                          "syncStructs": [],
+                          "subNodes": [],
+                          "actions": [],
+                          "conditions": [],
+                          "isLink": true
+                        }
+                      ],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": false
+                    },
+                    {
+                      "idNum": 33,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "conversationText": "Considering your reception of me, I cannot say that I am surprised.  I mean you no harm.",
+                      "IsExpanded": true,
+                      "subnodePointer": [],
+                      "syncStructs": [
+                        {
+                          "Index": 11,
+                          "ShowOnce": false,
+                          "IsChild": true,
+                          "conditions": []
+                        }
+                      ],
+                      "subNodes": [
+                        {
+                          "idNum": 100186,
+                          "pcNode": true,
+                          "linkTo": 12,
+                          "ShowOnlyOnce": false,
+                          "NodeIsActive": true,
+                          "NodePortraitBitmap": "",
+                          "NodeNpcName": "",
+                          "conversationText": "Continue",
+                          "IsExpanded": true,
+                          "subnodePointer": [],
+                          "syncStructs": [],
+                          "subNodes": [],
+                          "actions": [],
+                          "conditions": [],
+                          "isLink": true
+                        }
+                      ],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": false
+                    },
+                    {
+                      "idNum": 34,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "conversationText": "I believe you.  Those of my \"kind\" who travel among men usually prefer the comforts of real civilization to the prejudices of backwaters such as this.  Good <day/night>.",
+                      "IsExpanded": true,
+                      "subnodePointer": [],
+                      "syncStructs": [],
+                      "subNodes": [],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": false
+                    },
+                    {
+                      "idNum": 100187,
+                      "pcNode": true,
+                      "linkTo": 35,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "conversationText": "Continue",
+                      "IsExpanded": true,
+                      "subnodePointer": [],
+                      "syncStructs": [],
+                      "subNodes": [],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": true
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            },
+            {
+              "idNum": 28,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "conversationText": "What, did my dusky complexion give me away?  ",
+              "IsExpanded": true,
+              "subnodePointer": [],
+              "syncStructs": [
+                {
+                  "Index": 13,
+                  "ShowOnce": false,
+                  "IsChild": true,
+                  "conditions": []
+                }
+              ],
+              "subNodes": [
+                {
+                  "idNum": 100188,
+                  "pcNode": true,
+                  "linkTo": 14,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "conversationText": "Continue",
+                  "IsExpanded": true,
+                  "subnodePointer": [],
+                  "syncStructs": [],
+                  "subNodes": [],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": true
+                }
+              ],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            },
+            {
+              "idNum": 32,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "conversationText": "What, did my inhuman charm give me away?",
+              "IsExpanded": true,
+              "subnodePointer": [],
+              "syncStructs": [
+                {
+                  "Index": 13,
+                  "ShowOnce": false,
+                  "IsChild": true,
+                  "conditions": []
+                }
+              ],
+              "subNodes": [
+                {
+                  "idNum": 100189,
+                  "pcNode": true,
+                  "linkTo": 14,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "conversationText": "Continue",
+                  "IsExpanded": true,
+                  "subnodePointer": [],
+                  "syncStructs": [],
+                  "subNodes": [],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": true
+                }
+              ],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            },
+            {
+              "idNum": 35,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "conversationText": "[<i>Turn brusquely away.</i>]",
+              "IsExpanded": true,
+              "subnodePointer": [],
+              "syncStructs": [],
+              "subNodes": [],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            }
+          ],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 2,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": true,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "<i>This person looks at you with a mixture of fear and awe.</i>",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 3,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Ianth Lavillus is likely to stir up trouble for Drawn Swords if she keeps wandering through Northdark Wood.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 4,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Danmar Braceley knows his drinks.  He knows a thing or two he's not telling, too, I'd wager.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 5,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "There's good boar and deer hunting in Northdark Wood.  Orcs and goblins too, of course.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 6,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Have you heard of the Backlands Boar?  People say it's at least a hundred years old and bigger than two bears!",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 7,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Oudin Asterchord has a number of curiosities in his nearby shop.  I don't know how he stays in business, though, what with those prices.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 8,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Hamfast is overworked.  Running a smithy <i>and</i> a town isn't easy.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 9,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "The men of Saern's Swords used to help out as the local militia, but with Ianth here, they mostly help themselves to more rounds.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 10,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Swordskeep used to be the home of a robber knight named Ludos, a bad man who quickly lost his power to brutal winters and starvation.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 11,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Most of us make our living as craftsmen or hunters.  There's not much to farm on a rocky crag.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 15,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "We're proud to be known as the southernmost point of the Backlands.  Eh, \"proud\" might be too strong a word.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 16,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Sunset Vale, not far to the south, is more well known than Drawn Swords.  There you've got Berdusk and Iriaebor.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 17,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Brother Anselm is a young priest of Ilmater, and we are indeed blessed to have him here.  He has two acolytes, Dunne and Obern.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 18,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "The autumn is kind to us folk of Drawn Swords, but the winter follows quickly and is usually very cruel.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 19,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Danmar keeps surplus provisions in the cellar of the Sword and Dragon, and the hunters do what they can to keep a supply of food flowing.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 20,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "<i>All</i> of Danmar's drinks are fine, but the mulled cider he's shipped up from Corm Orp is quite delicious. ",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 21,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Drawn Swords is surrounded by rocky hills and plains to the north and east, and the dangerous Northdark Wood to the south.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 22,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "They say that Evereska, the land of the elves, lies a crow's tenday to the north.  It might as well be on the other side of Faerun for all the dangers that lie between here and there.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 23,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "The Flame Stone is a holy site of Sune, goddess of love, and stands not far from this crag.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 24,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "We do not have many travelers, but we would have far fewer if it weren't for this inn.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 25,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "If Hamfast is the town's leader, Danmar is his council.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        }
+      ],
+      "actions": [],
+      "conditions": [],
+      "isLink": false
+    }
+  ]
+}

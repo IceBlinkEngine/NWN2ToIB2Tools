@@ -1,0 +1,216 @@
+{
+  "ConvoFileName": "debug_con",
+  "Narration": false,
+  "PartyChat": false,
+  "SpeakToMainPcOnly": false,
+  "NpcPortraitBitmap": "ptr_debug_con",
+  "DefaultNpcName": "debug_con",
+  "subNodes": [
+    {
+      "idNum": 0,
+      "pcNode": true,
+      "linkTo": 0,
+      "ShowOnlyOnce": false,
+      "NodeIsActive": true,
+      "NodePortraitBitmap": "",
+      "NodeNpcName": "",
+      "conversationText": "root",
+      "IsExpanded": true,
+      "subnodePointer": [],
+      "syncStructs": [],
+      "subNodes": [
+        {
+          "idNum": 1,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "What do you want to do?",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [
+            {
+              "Index": 0,
+              "ShowOnce": false,
+              "IsChild": false,
+              "conditions": []
+            },
+            {
+              "Index": 2,
+              "ShowOnce": false,
+              "IsChild": false,
+              "conditions": []
+            },
+            {
+              "Index": 4,
+              "ShowOnce": false,
+              "IsChild": false,
+              "conditions": []
+            }
+          ],
+          "subNodes": [
+            {
+              "idNum": 4,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "conversationText": "Add Vroman as a companion.",
+              "IsExpanded": true,
+              "subnodePointer": [],
+              "syncStructs": [
+                {
+                  "Index": 1,
+                  "ShowOnce": false,
+                  "IsChild": false,
+                  "conditions": []
+                }
+              ],
+              "subNodes": [
+                {
+                  "idNum": 2,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "ptr_vroman",
+                  "NodeNpcName": "Vroman",
+                  "conversationText": "Heya!",
+                  "IsExpanded": true,
+                  "subnodePointer": [],
+                  "syncStructs": [
+                    {
+                      "Index": 1,
+                      "ShowOnce": false,
+                      "IsChild": false,
+                      "conditions": []
+                    }
+                  ],
+                  "subNodes": [
+                    {
+                      "idNum": 5,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "conversationText": "Continue",
+                      "IsExpanded": true,
+                      "subnodePointer": [],
+                      "syncStructs": [],
+                      "subNodes": [],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            },
+            {
+              "idNum": 6,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "conversationText": "Add Ianth as a companion.",
+              "IsExpanded": true,
+              "subnodePointer": [],
+              "syncStructs": [
+                {
+                  "Index": 2,
+                  "ShowOnce": false,
+                  "IsChild": false,
+                  "conditions": []
+                }
+              ],
+              "subNodes": [
+                {
+                  "idNum": 3,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "ptr_vroman",
+                  "NodeNpcName": "Vroman",
+                  "conversationText": "What's up?",
+                  "IsExpanded": true,
+                  "subnodePointer": [],
+                  "syncStructs": [
+                    {
+                      "Index": 3,
+                      "ShowOnce": false,
+                      "IsChild": false,
+                      "conditions": []
+                    }
+                  ],
+                  "subNodes": [
+                    {
+                      "idNum": 7,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "conversationText": "Continue",
+                      "IsExpanded": true,
+                      "subnodePointer": [],
+                      "syncStructs": [],
+                      "subNodes": [],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            },
+            {
+              "idNum": 8,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "conversationText": "Nothin'.",
+              "IsExpanded": true,
+              "subnodePointer": [],
+              "syncStructs": [],
+              "subNodes": [],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            }
+          ],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        }
+      ],
+      "actions": [],
+      "conditions": [],
+      "isLink": false
+    }
+  ]
+}

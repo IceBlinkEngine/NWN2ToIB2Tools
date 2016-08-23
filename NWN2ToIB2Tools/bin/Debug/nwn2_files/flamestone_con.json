@@ -1,0 +1,754 @@
+{
+  "ConvoFileName": "flamestone_con",
+  "Narration": false,
+  "PartyChat": false,
+  "SpeakToMainPcOnly": false,
+  "NpcPortraitBitmap": "ptr_flamestone_con",
+  "DefaultNpcName": "flamestone_con",
+  "subNodes": [
+    {
+      "idNum": 0,
+      "pcNode": true,
+      "linkTo": 0,
+      "ShowOnlyOnce": false,
+      "NodeIsActive": true,
+      "NodePortraitBitmap": "",
+      "NodeNpcName": "",
+      "conversationText": "root",
+      "IsExpanded": true,
+      "subnodePointer": [],
+      "syncStructs": [],
+      "subNodes": [
+        {
+          "idNum": 6,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": true,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Continue",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [
+            {
+              "Index": 7,
+              "ShowOnce": false,
+              "IsChild": false,
+              "conditions": []
+            }
+          ],
+          "subNodes": [
+            {
+              "idNum": 19,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "conversationText": "Continue",
+              "IsExpanded": true,
+              "subnodePointer": [],
+              "syncStructs": [
+                {
+                  "Index": 6,
+                  "ShowOnce": false,
+                  "IsChild": false,
+                  "conditions": []
+                }
+              ],
+              "subNodes": [
+                {
+                  "idNum": 7,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "ptr_ianth",
+                  "NodeNpcName": "Ianth",
+                  "conversationText": "This is the grove of the Flame Stone.  [<i>With the slightest bit of sadness in her voice.</i>]  I have come here faithfully every tenday for the last year.",
+                  "IsExpanded": true,
+                  "subnodePointer": [],
+                  "syncStructs": [
+                    {
+                      "Index": 8,
+                      "ShowOnce": false,
+                      "IsChild": false,
+                      "conditions": []
+                    }
+                  ],
+                  "subNodes": [
+                    {
+                      "idNum": 20,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "conversationText": "Continue",
+                      "IsExpanded": true,
+                      "subnodePointer": [],
+                      "syncStructs": [
+                        {
+                          "Index": 7,
+                          "ShowOnce": false,
+                          "IsChild": false,
+                          "conditions": []
+                        }
+                      ],
+                      "subNodes": [
+                        {
+                          "idNum": 8,
+                          "pcNode": false,
+                          "linkTo": 0,
+                          "ShowOnlyOnce": false,
+                          "NodeIsActive": true,
+                          "NodePortraitBitmap": "",
+                          "NodeNpcName": "",
+                          "conversationText": "The men who guard this place are known as Stag Warriors.  They belong to one of Sune's mystery cults. Though their order and mine worship the same Goddess, our practices are quite different.",
+                          "IsExpanded": true,
+                          "subnodePointer": [],
+                          "syncStructs": [
+                            {
+                              "Index": 9,
+                              "ShowOnce": false,
+                              "IsChild": false,
+                              "conditions": []
+                            },
+                            {
+                              "Index": 11,
+                              "ShowOnce": false,
+                              "IsChild": false,
+                              "conditions": []
+                            },
+                            {
+                              "Index": 13,
+                              "ShowOnce": false,
+                              "IsChild": false,
+                              "conditions": []
+                            }
+                          ],
+                          "subNodes": [
+                            {
+                              "idNum": 21,
+                              "pcNode": true,
+                              "linkTo": 0,
+                              "ShowOnlyOnce": false,
+                              "NodeIsActive": true,
+                              "NodePortraitBitmap": "",
+                              "NodeNpcName": "",
+                              "conversationText": "Oh?  How so?",
+                              "IsExpanded": true,
+                              "subnodePointer": [],
+                              "syncStructs": [
+                                {
+                                  "Index": 8,
+                                  "ShowOnce": false,
+                                  "IsChild": false,
+                                  "conditions": []
+                                }
+                              ],
+                              "subNodes": [
+                                {
+                                  "idNum": 9,
+                                  "pcNode": false,
+                                  "linkTo": 0,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "ptr_ianth",
+                                  "NodeNpcName": "Ianth",
+                                  "conversationText": "The Stag Warriors worship Sune as the goddess of passionate mirth and festivity; those of the Order of the Ruby Rose acknowledge and worship these aspects of Sune, but honor her more as the patroness of beauty and true love.",
+                                  "IsExpanded": true,
+                                  "subnodePointer": [],
+                                  "syncStructs": [
+                                    {
+                                      "Index": 10,
+                                      "ShowOnce": false,
+                                      "IsChild": false,
+                                      "conditions": []
+                                    }
+                                  ],
+                                  "subNodes": [
+                                    {
+                                      "idNum": 22,
+                                      "pcNode": true,
+                                      "linkTo": 0,
+                                      "ShowOnlyOnce": false,
+                                      "NodeIsActive": true,
+                                      "NodePortraitBitmap": "",
+                                      "NodeNpcName": "",
+                                      "conversationText": "Continue",
+                                      "IsExpanded": true,
+                                      "subnodePointer": [],
+                                      "syncStructs": [
+                                        {
+                                          "Index": 4,
+                                          "ShowOnce": false,
+                                          "IsChild": true,
+                                          "conditions": []
+                                        }
+                                      ],
+                                      "subNodes": [
+                                        {
+                                          "idNum": 100543,
+                                          "pcNode": true,
+                                          "linkTo": 5,
+                                          "ShowOnlyOnce": false,
+                                          "NodeIsActive": true,
+                                          "NodePortraitBitmap": "",
+                                          "NodeNpcName": "",
+                                          "conversationText": "Continue",
+                                          "IsExpanded": true,
+                                          "subnodePointer": [],
+                                          "syncStructs": [],
+                                          "subNodes": [],
+                                          "actions": [],
+                                          "conditions": [],
+                                          "isLink": true
+                                        }
+                                      ],
+                                      "actions": [],
+                                      "conditions": [],
+                                      "isLink": false
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": false
+                                }
+                              ],
+                              "actions": [],
+                              "conditions": [],
+                              "isLink": false
+                            },
+                            {
+                              "idNum": 23,
+                              "pcNode": true,
+                              "linkTo": 0,
+                              "ShowOnlyOnce": false,
+                              "NodeIsActive": true,
+                              "NodePortraitBitmap": "",
+                              "NodeNpcName": "",
+                              "conversationText": "That's too bad.  You would look quite nice in a pair of antlers.",
+                              "IsExpanded": true,
+                              "subnodePointer": [],
+                              "syncStructs": [
+                                {
+                                  "Index": 9,
+                                  "ShowOnce": false,
+                                  "IsChild": false,
+                                  "conditions": []
+                                }
+                              ],
+                              "subNodes": [
+                                {
+                                  "idNum": 10,
+                                  "pcNode": false,
+                                  "linkTo": 0,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "ptr_ianth",
+                                  "NodeNpcName": "Ianth",
+                                  "conversationText": "[<i>Without conviction.</i>]  You are very amusing.  There is more to it than how we dress.",
+                                  "IsExpanded": true,
+                                  "subnodePointer": [],
+                                  "syncStructs": [
+                                    {
+                                      "Index": 12,
+                                      "ShowOnce": false,
+                                      "IsChild": false,
+                                      "conditions": []
+                                    }
+                                  ],
+                                  "subNodes": [
+                                    {
+                                      "idNum": 24,
+                                      "pcNode": true,
+                                      "linkTo": 0,
+                                      "ShowOnlyOnce": false,
+                                      "NodeIsActive": true,
+                                      "NodePortraitBitmap": "",
+                                      "NodeNpcName": "",
+                                      "conversationText": "Continue",
+                                      "IsExpanded": true,
+                                      "subnodePointer": [],
+                                      "syncStructs": [
+                                        {
+                                          "Index": 3,
+                                          "ShowOnce": false,
+                                          "IsChild": true,
+                                          "conditions": []
+                                        }
+                                      ],
+                                      "subNodes": [
+                                        {
+                                          "idNum": 100544,
+                                          "pcNode": true,
+                                          "linkTo": 4,
+                                          "ShowOnlyOnce": false,
+                                          "NodeIsActive": true,
+                                          "NodePortraitBitmap": "",
+                                          "NodeNpcName": "",
+                                          "conversationText": "Continue",
+                                          "IsExpanded": true,
+                                          "subnodePointer": [],
+                                          "syncStructs": [],
+                                          "subNodes": [],
+                                          "actions": [],
+                                          "conditions": [],
+                                          "isLink": true
+                                        }
+                                      ],
+                                      "actions": [],
+                                      "conditions": [],
+                                      "isLink": false
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": false
+                                }
+                              ],
+                              "actions": [],
+                              "conditions": [],
+                              "isLink": false
+                            },
+                            {
+                              "idNum": 25,
+                              "pcNode": true,
+                              "linkTo": 0,
+                              "ShowOnlyOnce": false,
+                              "NodeIsActive": true,
+                              "NodePortraitBitmap": "",
+                              "NodeNpcName": "",
+                              "conversationText": "[<i>Nod.</i>]",
+                              "IsExpanded": true,
+                              "subnodePointer": [],
+                              "syncStructs": [
+                                {
+                                  "Index": 10,
+                                  "ShowOnce": false,
+                                  "IsChild": false,
+                                  "conditions": []
+                                }
+                              ],
+                              "subNodes": [
+                                {
+                                  "idNum": 11,
+                                  "pcNode": false,
+                                  "linkTo": 0,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "ptr_ianth",
+                                  "NodeNpcName": "Ianth",
+                                  "conversationText": "We may approach the Stone safely, if you wish.",
+                                  "IsExpanded": true,
+                                  "subnodePointer": [],
+                                  "syncStructs": [
+                                    {
+                                      "Index": 14,
+                                      "ShowOnce": false,
+                                      "IsChild": false,
+                                      "conditions": []
+                                    }
+                                  ],
+                                  "subNodes": [
+                                    {
+                                      "idNum": 26,
+                                      "pcNode": true,
+                                      "linkTo": 0,
+                                      "ShowOnlyOnce": false,
+                                      "NodeIsActive": true,
+                                      "NodePortraitBitmap": "",
+                                      "NodeNpcName": "",
+                                      "conversationText": "Continue",
+                                      "IsExpanded": true,
+                                      "subnodePointer": [],
+                                      "syncStructs": [],
+                                      "subNodes": [],
+                                      "actions": [],
+                                      "conditions": [],
+                                      "isLink": false
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": false
+                                }
+                              ],
+                              "actions": [],
+                              "conditions": [],
+                              "isLink": false
+                            }
+                          ],
+                          "actions": [],
+                          "conditions": [],
+                          "isLink": false
+                        }
+                      ],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            }
+          ],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 1,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "ptr_ianth",
+          "NodeNpcName": "Ianth",
+          "conversationText": "This is the grove of the Flame Stone.  [<i>With the slightest bit of sadness in her voice.</i>]  I have come here faithfully every tenday for the last year.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [
+            {
+              "Index": 0,
+              "ShowOnce": false,
+              "IsChild": false,
+              "conditions": []
+            }
+          ],
+          "subNodes": [
+            {
+              "idNum": 12,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "conversationText": "Continue",
+              "IsExpanded": true,
+              "subnodePointer": [],
+              "syncStructs": [
+                {
+                  "Index": 1,
+                  "ShowOnce": false,
+                  "IsChild": false,
+                  "conditions": []
+                }
+              ],
+              "subNodes": [
+                {
+                  "idNum": 2,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "conversationText": "The men who guard this place are known as Stag Warriors.  They belong to one of Sune's mystery cults. Though their order and mine worship the same Goddess, our practices are quite different.",
+                  "IsExpanded": true,
+                  "subnodePointer": [],
+                  "syncStructs": [
+                    {
+                      "Index": 1,
+                      "ShowOnce": false,
+                      "IsChild": false,
+                      "conditions": []
+                    },
+                    {
+                      "Index": 2,
+                      "ShowOnce": false,
+                      "IsChild": false,
+                      "conditions": []
+                    },
+                    {
+                      "Index": 3,
+                      "ShowOnce": false,
+                      "IsChild": false,
+                      "conditions": []
+                    }
+                  ],
+                  "subNodes": [
+                    {
+                      "idNum": 13,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "conversationText": "Oh?  How so?",
+                      "IsExpanded": true,
+                      "subnodePointer": [],
+                      "syncStructs": [
+                        {
+                          "Index": 3,
+                          "ShowOnce": false,
+                          "IsChild": false,
+                          "conditions": []
+                        }
+                      ],
+                      "subNodes": [
+                        {
+                          "idNum": 4,
+                          "pcNode": false,
+                          "linkTo": 0,
+                          "ShowOnlyOnce": false,
+                          "NodeIsActive": true,
+                          "NodePortraitBitmap": "ptr_ianth",
+                          "NodeNpcName": "Ianth",
+                          "conversationText": "The Stag Warriors worship Sune as the goddess of passionate mirth and festivity; those of the Order of the Ruby Rose acknowledge and worship these aspects of Sune, but honor her more as the patroness of beauty and true love.",
+                          "IsExpanded": true,
+                          "subnodePointer": [],
+                          "syncStructs": [
+                            {
+                              "Index": 5,
+                              "ShowOnce": false,
+                              "IsChild": false,
+                              "conditions": []
+                            }
+                          ],
+                          "subNodes": [
+                            {
+                              "idNum": 17,
+                              "pcNode": true,
+                              "linkTo": 0,
+                              "ShowOnlyOnce": false,
+                              "NodeIsActive": true,
+                              "NodePortraitBitmap": "",
+                              "NodeNpcName": "",
+                              "conversationText": "Continue",
+                              "IsExpanded": true,
+                              "subnodePointer": [],
+                              "syncStructs": [
+                                {
+                                  "Index": 4294967295,
+                                  "ShowOnce": false,
+                                  "IsChild": true,
+                                  "conditions": []
+                                }
+                              ],
+                              "subNodes": [
+                                {
+                                  "idNum": 100545,
+                                  "pcNode": true,
+                                  "linkTo": -1,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "",
+                                  "NodeNpcName": "",
+                                  "conversationText": "[BROKEN LINK:]",
+                                  "IsExpanded": true,
+                                  "subnodePointer": [],
+                                  "syncStructs": [],
+                                  "subNodes": [],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": true
+                                }
+                              ],
+                              "actions": [],
+                              "conditions": [],
+                              "isLink": false
+                            }
+                          ],
+                          "actions": [],
+                          "conditions": [],
+                          "isLink": false
+                        }
+                      ],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": false
+                    },
+                    {
+                      "idNum": 14,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "conversationText": "That's too bad.  You would look quite nice in a pair of antlers.",
+                      "IsExpanded": true,
+                      "subnodePointer": [],
+                      "syncStructs": [
+                        {
+                          "Index": 2,
+                          "ShowOnce": false,
+                          "IsChild": false,
+                          "conditions": []
+                        }
+                      ],
+                      "subNodes": [
+                        {
+                          "idNum": 3,
+                          "pcNode": false,
+                          "linkTo": 0,
+                          "ShowOnlyOnce": false,
+                          "NodeIsActive": true,
+                          "NodePortraitBitmap": "ptr_ianth",
+                          "NodeNpcName": "Ianth",
+                          "conversationText": "[<i>Without conviction.</i>]  You are very amusing.  There is more to it than how we dress.",
+                          "IsExpanded": true,
+                          "subnodePointer": [],
+                          "syncStructs": [
+                            {
+                              "Index": 4,
+                              "ShowOnce": false,
+                              "IsChild": false,
+                              "conditions": []
+                            }
+                          ],
+                          "subNodes": [
+                            {
+                              "idNum": 16,
+                              "pcNode": true,
+                              "linkTo": 0,
+                              "ShowOnlyOnce": false,
+                              "NodeIsActive": true,
+                              "NodePortraitBitmap": "",
+                              "NodeNpcName": "",
+                              "conversationText": "Continue",
+                              "IsExpanded": true,
+                              "subnodePointer": [],
+                              "syncStructs": [
+                                {
+                                  "Index": 4294967295,
+                                  "ShowOnce": false,
+                                  "IsChild": true,
+                                  "conditions": []
+                                }
+                              ],
+                              "subNodes": [
+                                {
+                                  "idNum": 100546,
+                                  "pcNode": true,
+                                  "linkTo": -1,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "",
+                                  "NodeNpcName": "",
+                                  "conversationText": "[BROKEN LINK:]",
+                                  "IsExpanded": true,
+                                  "subnodePointer": [],
+                                  "syncStructs": [],
+                                  "subNodes": [],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": true
+                                }
+                              ],
+                              "actions": [],
+                              "conditions": [],
+                              "isLink": false
+                            }
+                          ],
+                          "actions": [],
+                          "conditions": [],
+                          "isLink": false
+                        }
+                      ],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": false
+                    },
+                    {
+                      "idNum": 15,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "conversationText": "[<i>Nod.</i>]",
+                      "IsExpanded": true,
+                      "subnodePointer": [],
+                      "syncStructs": [
+                        {
+                          "Index": 4,
+                          "ShowOnce": false,
+                          "IsChild": false,
+                          "conditions": []
+                        }
+                      ],
+                      "subNodes": [
+                        {
+                          "idNum": 5,
+                          "pcNode": false,
+                          "linkTo": 0,
+                          "ShowOnlyOnce": false,
+                          "NodeIsActive": true,
+                          "NodePortraitBitmap": "ptr_ianth",
+                          "NodeNpcName": "Ianth",
+                          "conversationText": "We may approach the Stone safely, if you wish.",
+                          "IsExpanded": true,
+                          "subnodePointer": [],
+                          "syncStructs": [
+                            {
+                              "Index": 6,
+                              "ShowOnce": false,
+                              "IsChild": false,
+                              "conditions": []
+                            }
+                          ],
+                          "subNodes": [
+                            {
+                              "idNum": 18,
+                              "pcNode": true,
+                              "linkTo": 0,
+                              "ShowOnlyOnce": false,
+                              "NodeIsActive": true,
+                              "NodePortraitBitmap": "",
+                              "NodeNpcName": "",
+                              "conversationText": "Continue",
+                              "IsExpanded": true,
+                              "subnodePointer": [],
+                              "syncStructs": [],
+                              "subNodes": [],
+                              "actions": [],
+                              "conditions": [],
+                              "isLink": false
+                            }
+                          ],
+                          "actions": [],
+                          "conditions": [],
+                          "isLink": false
+                        }
+                      ],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            }
+          ],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        }
+      ],
+      "actions": [],
+      "conditions": [],
+      "isLink": false
+    }
+  ]
+}

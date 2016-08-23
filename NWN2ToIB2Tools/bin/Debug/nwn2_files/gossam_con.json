@@ -1,0 +1,2150 @@
+{
+  "ConvoFileName": "gossam_con",
+  "Narration": false,
+  "PartyChat": false,
+  "SpeakToMainPcOnly": false,
+  "NpcPortraitBitmap": "ptr_gossam_con",
+  "DefaultNpcName": "gossam_con",
+  "subNodes": [
+    {
+      "idNum": 0,
+      "pcNode": true,
+      "linkTo": 0,
+      "ShowOnlyOnce": false,
+      "NodeIsActive": true,
+      "NodePortraitBitmap": "",
+      "NodeNpcName": "",
+      "conversationText": "root",
+      "IsExpanded": true,
+      "subnodePointer": [],
+      "syncStructs": [],
+      "subNodes": [
+        {
+          "idNum": 1,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": true,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Greetings, friend.  I am Gossam Thistefall, follower of Sheela Peryroyl and adventurer.  Who might you be?",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [
+            {
+              "Index": 0,
+              "ShowOnce": false,
+              "IsChild": false,
+              "conditions": []
+            },
+            {
+              "Index": 1,
+              "ShowOnce": false,
+              "IsChild": false,
+              "conditions": []
+            },
+            {
+              "Index": 2,
+              "ShowOnce": false,
+              "IsChild": false,
+              "conditions": []
+            }
+          ],
+          "subNodes": [
+            {
+              "idNum": 50,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "conversationText": "I am <FullName>, <class> and adventurer.  I am honored to meet you.",
+              "IsExpanded": true,
+              "subnodePointer": [],
+              "syncStructs": [
+                {
+                  "Index": 1,
+                  "ShowOnce": false,
+                  "IsChild": false,
+                  "conditions": []
+                }
+              ],
+              "subNodes": [
+                {
+                  "idNum": 2,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "conversationText": "Likewise!",
+                  "IsExpanded": true,
+                  "subnodePointer": [],
+                  "syncStructs": [
+                    {
+                      "Index": 3,
+                      "ShowOnce": false,
+                      "IsChild": false,
+                      "conditions": []
+                    }
+                  ],
+                  "subNodes": [
+                    {
+                      "idNum": 53,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "conversationText": "Continue",
+                      "IsExpanded": true,
+                      "subnodePointer": [],
+                      "syncStructs": [
+                        {
+                          "Index": 2,
+                          "ShowOnce": false,
+                          "IsChild": false,
+                          "conditions": []
+                        }
+                      ],
+                      "subNodes": [
+                        {
+                          "idNum": 3,
+                          "pcNode": false,
+                          "linkTo": 0,
+                          "ShowOnlyOnce": false,
+                          "NodeIsActive": true,
+                          "NodePortraitBitmap": "",
+                          "NodeNpcName": "",
+                          "conversationText": "An adventurer, are you?  Well, <FirstName>, I have a proposal for you.  You are an adventurer, and so am I.  I came to this region from Corm Orp, to the south, for two reasons.  Would you hear them?",
+                          "IsExpanded": true,
+                          "subnodePointer": [],
+                          "syncStructs": [
+                            {
+                              "Index": 4,
+                              "ShowOnce": false,
+                              "IsChild": false,
+                              "conditions": []
+                            },
+                            {
+                              "Index": 5,
+                              "ShowOnce": false,
+                              "IsChild": false,
+                              "conditions": []
+                            }
+                          ],
+                          "subNodes": [
+                            {
+                              "idNum": 54,
+                              "pcNode": true,
+                              "linkTo": 0,
+                              "ShowOnlyOnce": false,
+                              "NodeIsActive": true,
+                              "NodePortraitBitmap": "",
+                              "NodeNpcName": "",
+                              "conversationText": "Tell on.",
+                              "IsExpanded": true,
+                              "subnodePointer": [],
+                              "syncStructs": [
+                                {
+                                  "Index": 4,
+                                  "ShowOnce": false,
+                                  "IsChild": true,
+                                  "conditions": []
+                                }
+                              ],
+                              "subNodes": [
+                                {
+                                  "idNum": 100558,
+                                  "pcNode": true,
+                                  "linkTo": 5,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "",
+                                  "NodeNpcName": "",
+                                  "conversationText": "Continue",
+                                  "IsExpanded": true,
+                                  "subnodePointer": [],
+                                  "syncStructs": [],
+                                  "subNodes": [],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": true
+                                }
+                              ],
+                              "actions": [],
+                              "conditions": [],
+                              "isLink": false
+                            },
+                            {
+                              "idNum": 55,
+                              "pcNode": true,
+                              "linkTo": 0,
+                              "ShowOnlyOnce": false,
+                              "NodeIsActive": true,
+                              "NodePortraitBitmap": "",
+                              "NodeNpcName": "",
+                              "conversationText": "Whether I would or not, I am sure that I <i>will</i>.",
+                              "IsExpanded": true,
+                              "subnodePointer": [],
+                              "syncStructs": [
+                                {
+                                  "Index": 3,
+                                  "ShowOnce": false,
+                                  "IsChild": false,
+                                  "conditions": []
+                                }
+                              ],
+                              "subNodes": [
+                                {
+                                  "idNum": 4,
+                                  "pcNode": false,
+                                  "linkTo": 0,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "",
+                                  "NodeNpcName": "",
+                                  "conversationText": "I see you are a fine judge of character.",
+                                  "IsExpanded": true,
+                                  "subnodePointer": [],
+                                  "syncStructs": [
+                                    {
+                                      "Index": 6,
+                                      "ShowOnce": false,
+                                      "IsChild": false,
+                                      "conditions": []
+                                    }
+                                  ],
+                                  "subNodes": [
+                                    {
+                                      "idNum": 56,
+                                      "pcNode": true,
+                                      "linkTo": 0,
+                                      "ShowOnlyOnce": false,
+                                      "NodeIsActive": true,
+                                      "NodePortraitBitmap": "",
+                                      "NodeNpcName": "",
+                                      "conversationText": "Continue",
+                                      "IsExpanded": true,
+                                      "subnodePointer": [],
+                                      "syncStructs": [
+                                        {
+                                          "Index": 4,
+                                          "ShowOnce": false,
+                                          "IsChild": false,
+                                          "conditions": []
+                                        }
+                                      ],
+                                      "subNodes": [
+                                        {
+                                          "idNum": 5,
+                                          "pcNode": false,
+                                          "linkTo": 0,
+                                          "ShowOnlyOnce": false,
+                                          "NodeIsActive": true,
+                                          "NodePortraitBitmap": "",
+                                          "NodeNpcName": "",
+                                          "conversationText": "The first is simply that I wished to see the world, to walk among strange trees, and to do whatever good I am capable of doing.",
+                                          "IsExpanded": true,
+                                          "subnodePointer": [],
+                                          "syncStructs": [
+                                            {
+                                              "Index": 7,
+                                              "ShowOnce": false,
+                                              "IsChild": false,
+                                              "conditions": []
+                                            }
+                                          ],
+                                          "subNodes": [
+                                            {
+                                              "idNum": 57,
+                                              "pcNode": true,
+                                              "linkTo": 0,
+                                              "ShowOnlyOnce": false,
+                                              "NodeIsActive": true,
+                                              "NodePortraitBitmap": "",
+                                              "NodeNpcName": "",
+                                              "conversationText": "Continue",
+                                              "IsExpanded": true,
+                                              "subnodePointer": [],
+                                              "syncStructs": [
+                                                {
+                                                  "Index": 5,
+                                                  "ShowOnce": false,
+                                                  "IsChild": false,
+                                                  "conditions": []
+                                                }
+                                              ],
+                                              "subNodes": [
+                                                {
+                                                  "idNum": 6,
+                                                  "pcNode": false,
+                                                  "linkTo": 0,
+                                                  "ShowOnlyOnce": false,
+                                                  "NodeIsActive": true,
+                                                  "NodePortraitBitmap": "",
+                                                  "NodeNpcName": "",
+                                                  "conversationText": "The second is that, besides being an adventurer and priest, I am a student of the natural world, and particularly of botany.  This region has a number of rare flora that I would like to investigate.  ",
+                                                  "IsExpanded": true,
+                                                  "subnodePointer": [],
+                                                  "syncStructs": [
+                                                    {
+                                                      "Index": 8,
+                                                      "ShowOnce": false,
+                                                      "IsChild": false,
+                                                      "conditions": []
+                                                    }
+                                                  ],
+                                                  "subNodes": [
+                                                    {
+                                                      "idNum": 58,
+                                                      "pcNode": true,
+                                                      "linkTo": 0,
+                                                      "ShowOnlyOnce": false,
+                                                      "NodeIsActive": true,
+                                                      "NodePortraitBitmap": "",
+                                                      "NodeNpcName": "",
+                                                      "conversationText": "Continue",
+                                                      "IsExpanded": true,
+                                                      "subnodePointer": [],
+                                                      "syncStructs": [
+                                                        {
+                                                          "Index": 6,
+                                                          "ShowOnce": false,
+                                                          "IsChild": false,
+                                                          "conditions": []
+                                                        }
+                                                      ],
+                                                      "subNodes": [
+                                                        {
+                                                          "idNum": 7,
+                                                          "pcNode": false,
+                                                          "linkTo": 0,
+                                                          "ShowOnlyOnce": false,
+                                                          "NodeIsActive": true,
+                                                          "NodePortraitBitmap": "ptr_oudin",
+                                                          "NodeNpcName": "Oudin",
+                                                          "conversationText": "My nephew comes by collecting quite naturally, though I personally do not understand why anyone would prefer picking posies to collecting books and antiquities.",
+                                                          "IsExpanded": true,
+                                                          "subnodePointer": [],
+                                                          "syncStructs": [
+                                                            {
+                                                              "Index": 9,
+                                                              "ShowOnce": false,
+                                                              "IsChild": false,
+                                                              "conditions": []
+                                                            }
+                                                          ],
+                                                          "subNodes": [
+                                                            {
+                                                              "idNum": 59,
+                                                              "pcNode": true,
+                                                              "linkTo": 0,
+                                                              "ShowOnlyOnce": false,
+                                                              "NodeIsActive": true,
+                                                              "NodePortraitBitmap": "",
+                                                              "NodeNpcName": "",
+                                                              "conversationText": "Continue",
+                                                              "IsExpanded": true,
+                                                              "subnodePointer": [],
+                                                              "syncStructs": [
+                                                                {
+                                                                  "Index": 7,
+                                                                  "ShowOnce": false,
+                                                                  "IsChild": false,
+                                                                  "conditions": []
+                                                                }
+                                                              ],
+                                                              "subNodes": [
+                                                                {
+                                                                  "idNum": 8,
+                                                                  "pcNode": false,
+                                                                  "linkTo": 0,
+                                                                  "ShowOnlyOnce": false,
+                                                                  "NodeIsActive": true,
+                                                                  "NodePortraitBitmap": "",
+                                                                  "NodeNpcName": "",
+                                                                  "conversationText": "Well, Uncle Oudin, a flower can be as much a book as any of these things scattered across your floor.  For those who are literate in the ways of flowers, of course.  ",
+                                                                  "IsExpanded": true,
+                                                                  "subnodePointer": [],
+                                                                  "syncStructs": [
+                                                                    {
+                                                                      "Index": 10,
+                                                                      "ShowOnce": false,
+                                                                      "IsChild": false,
+                                                                      "conditions": []
+                                                                    },
+                                                                    {
+                                                                      "Index": 11,
+                                                                      "ShowOnce": false,
+                                                                      "IsChild": false,
+                                                                      "conditions": []
+                                                                    },
+                                                                    {
+                                                                      "Index": 12,
+                                                                      "ShowOnce": false,
+                                                                      "IsChild": false,
+                                                                      "conditions": []
+                                                                    },
+                                                                    {
+                                                                      "Index": 13,
+                                                                      "ShowOnce": false,
+                                                                      "IsChild": false,
+                                                                      "conditions": []
+                                                                    },
+                                                                    {
+                                                                      "Index": 14,
+                                                                      "ShowOnce": false,
+                                                                      "IsChild": false,
+                                                                      "conditions": []
+                                                                    }
+                                                                  ],
+                                                                  "subNodes": [
+                                                                    {
+                                                                      "idNum": 60,
+                                                                      "pcNode": true,
+                                                                      "linkTo": 0,
+                                                                      "ShowOnlyOnce": false,
+                                                                      "NodeIsActive": true,
+                                                                      "NodePortraitBitmap": "",
+                                                                      "NodeNpcName": "",
+                                                                      "conversationText": "We are of the same mind, my friend.  As a <class>, I, too, delight in the wild.",
+                                                                      "IsExpanded": true,
+                                                                      "subnodePointer": [],
+                                                                      "syncStructs": [
+                                                                        {
+                                                                          "Index": 8,
+                                                                          "ShowOnce": false,
+                                                                          "IsChild": false,
+                                                                          "conditions": []
+                                                                        }
+                                                                      ],
+                                                                      "subNodes": [
+                                                                        {
+                                                                          "idNum": 9,
+                                                                          "pcNode": false,
+                                                                          "linkTo": 0,
+                                                                          "ShowOnlyOnce": false,
+                                                                          "NodeIsActive": true,
+                                                                          "NodePortraitBitmap": "",
+                                                                          "NodeNpcName": "",
+                                                                          "conversationText": "I am glad to hear you say so! ",
+                                                                          "IsExpanded": true,
+                                                                          "subnodePointer": [],
+                                                                          "syncStructs": [
+                                                                            {
+                                                                              "Index": 15,
+                                                                              "ShowOnce": false,
+                                                                              "IsChild": false,
+                                                                              "conditions": []
+                                                                            }
+                                                                          ],
+                                                                          "subNodes": [
+                                                                            {
+                                                                              "idNum": 65,
+                                                                              "pcNode": true,
+                                                                              "linkTo": 0,
+                                                                              "ShowOnlyOnce": false,
+                                                                              "NodeIsActive": true,
+                                                                              "NodePortraitBitmap": "",
+                                                                              "NodeNpcName": "",
+                                                                              "conversationText": "Continue",
+                                                                              "IsExpanded": true,
+                                                                              "subnodePointer": [],
+                                                                              "syncStructs": [
+                                                                                {
+                                                                                  "Index": 10,
+                                                                                  "ShowOnce": false,
+                                                                                  "IsChild": false,
+                                                                                  "conditions": []
+                                                                                }
+                                                                              ],
+                                                                              "subNodes": [
+                                                                                {
+                                                                                  "idNum": 11,
+                                                                                  "pcNode": false,
+                                                                                  "linkTo": 0,
+                                                                                  "ShowOnlyOnce": false,
+                                                                                  "NodeIsActive": true,
+                                                                                  "NodePortraitBitmap": "",
+                                                                                  "NodeNpcName": "",
+                                                                                  "conversationText": "In any case, I am looking for a group of adventurers to join.  I offer you my skill in healing, knowledge of the natural world, and--if this does not sound too vain--my level head.  Not to mention my sling. ",
+                                                                                  "IsExpanded": true,
+                                                                                  "subnodePointer": [],
+                                                                                  "syncStructs": [
+                                                                                    {
+                                                                                      "Index": 17,
+                                                                                      "ShowOnce": false,
+                                                                                      "IsChild": false,
+                                                                                      "conditions": []
+                                                                                    }
+                                                                                  ],
+                                                                                  "subNodes": [
+                                                                                    {
+                                                                                      "idNum": 67,
+                                                                                      "pcNode": true,
+                                                                                      "linkTo": 0,
+                                                                                      "ShowOnlyOnce": false,
+                                                                                      "NodeIsActive": true,
+                                                                                      "NodePortraitBitmap": "",
+                                                                                      "NodeNpcName": "",
+                                                                                      "conversationText": "Continue",
+                                                                                      "IsExpanded": true,
+                                                                                      "subnodePointer": [],
+                                                                                      "syncStructs": [
+                                                                                        {
+                                                                                          "Index": 11,
+                                                                                          "ShowOnce": false,
+                                                                                          "IsChild": false,
+                                                                                          "conditions": []
+                                                                                        }
+                                                                                      ],
+                                                                                      "subNodes": [
+                                                                                        {
+                                                                                          "idNum": 12,
+                                                                                          "pcNode": false,
+                                                                                          "linkTo": 0,
+                                                                                          "ShowOnlyOnce": false,
+                                                                                          "NodeIsActive": true,
+                                                                                          "NodePortraitBitmap": "ptr_oudin",
+                                                                                          "NodeNpcName": "Oudin",
+                                                                                          "conversationText": "It warms my heart to know that my serious-minded young nephew is still the boy famous for squirrel-slaying in Gullykin.   ",
+                                                                                          "IsExpanded": true,
+                                                                                          "subnodePointer": [],
+                                                                                          "syncStructs": [
+                                                                                            {
+                                                                                              "Index": 18,
+                                                                                              "ShowOnce": false,
+                                                                                              "IsChild": false,
+                                                                                              "conditions": []
+                                                                                            }
+                                                                                          ],
+                                                                                          "subNodes": [
+                                                                                            {
+                                                                                              "idNum": 68,
+                                                                                              "pcNode": true,
+                                                                                              "linkTo": 0,
+                                                                                              "ShowOnlyOnce": false,
+                                                                                              "NodeIsActive": true,
+                                                                                              "NodePortraitBitmap": "",
+                                                                                              "NodeNpcName": "",
+                                                                                              "conversationText": "Continue",
+                                                                                              "IsExpanded": true,
+                                                                                              "subnodePointer": [],
+                                                                                              "syncStructs": [
+                                                                                                {
+                                                                                                  "Index": 12,
+                                                                                                  "ShowOnce": false,
+                                                                                                  "IsChild": false,
+                                                                                                  "conditions": []
+                                                                                                }
+                                                                                              ],
+                                                                                              "subNodes": [
+                                                                                                {
+                                                                                                  "idNum": 13,
+                                                                                                  "pcNode": false,
+                                                                                                  "linkTo": 0,
+                                                                                                  "ShowOnlyOnce": false,
+                                                                                                  "NodeIsActive": true,
+                                                                                                  "NodePortraitBitmap": "",
+                                                                                                  "NodeNpcName": "",
+                                                                                                  "conversationText": "Indeed--though I have slain a few things more dangeous than squirrels since then.  Will you have me, <FirstName>?",
+                                                                                                  "IsExpanded": true,
+                                                                                                  "subnodePointer": [],
+                                                                                                  "syncStructs": [
+                                                                                                    {
+                                                                                                      "Index": 19,
+                                                                                                      "ShowOnce": false,
+                                                                                                      "IsChild": false,
+                                                                                                      "conditions": []
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "Index": 20,
+                                                                                                      "ShowOnce": false,
+                                                                                                      "IsChild": false,
+                                                                                                      "conditions": []
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "subNodes": [
+                                                                                                    {
+                                                                                                      "idNum": 69,
+                                                                                                      "pcNode": true,
+                                                                                                      "linkTo": 0,
+                                                                                                      "ShowOnlyOnce": false,
+                                                                                                      "NodeIsActive": true,
+                                                                                                      "NodePortraitBitmap": "",
+                                                                                                      "NodeNpcName": "",
+                                                                                                      "conversationText": "Yes, Gossam.",
+                                                                                                      "IsExpanded": true,
+                                                                                                      "subnodePointer": [],
+                                                                                                      "syncStructs": [
+                                                                                                        {
+                                                                                                          "Index": 14,
+                                                                                                          "ShowOnce": false,
+                                                                                                          "IsChild": false,
+                                                                                                          "conditions": []
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "subNodes": [
+                                                                                                        {
+                                                                                                          "idNum": 15,
+                                                                                                          "pcNode": false,
+                                                                                                          "linkTo": 0,
+                                                                                                          "ShowOnlyOnce": false,
+                                                                                                          "NodeIsActive": true,
+                                                                                                          "NodePortraitBitmap": "",
+                                                                                                          "NodeNpcName": "",
+                                                                                                          "conversationText": "Excellent!  My own task certainly isn't urgent, but if you'd like, we can head to Northdark Wood to look for flora--I'll give you a list of the plants I am looking for.",
+                                                                                                          "IsExpanded": true,
+                                                                                                          "subnodePointer": [],
+                                                                                                          "syncStructs": [
+                                                                                                            {
+                                                                                                              "Index": 22,
+                                                                                                              "ShowOnce": false,
+                                                                                                              "IsChild": false,
+                                                                                                              "conditions": []
+                                                                                                            }
+                                                                                                          ],
+                                                                                                          "subNodes": [
+                                                                                                            {
+                                                                                                              "idNum": 72,
+                                                                                                              "pcNode": true,
+                                                                                                              "linkTo": 0,
+                                                                                                              "ShowOnlyOnce": false,
+                                                                                                              "NodeIsActive": true,
+                                                                                                              "NodePortraitBitmap": "",
+                                                                                                              "NodeNpcName": "",
+                                                                                                              "conversationText": "Continue",
+                                                                                                              "IsExpanded": true,
+                                                                                                              "subnodePointer": [],
+                                                                                                              "syncStructs": [
+                                                                                                                {
+                                                                                                                  "Index": 15,
+                                                                                                                  "ShowOnce": false,
+                                                                                                                  "IsChild": false,
+                                                                                                                  "conditions": []
+                                                                                                                }
+                                                                                                              ],
+                                                                                                              "subNodes": [
+                                                                                                                {
+                                                                                                                  "idNum": 16,
+                                                                                                                  "pcNode": false,
+                                                                                                                  "linkTo": 0,
+                                                                                                                  "ShowOnlyOnce": false,
+                                                                                                                  "NodeIsActive": true,
+                                                                                                                  "NodePortraitBitmap": "ptr_vroman",
+                                                                                                                  "NodeNpcName": "Vroman",
+                                                                                                                  "conversationText": "I am glad to have you join us, halfling.  I have a passing interest in <i>certain</i> plants myself.",
+                                                                                                                  "IsExpanded": true,
+                                                                                                                  "subnodePointer": [],
+                                                                                                                  "syncStructs": [
+                                                                                                                    {
+                                                                                                                      "Index": 23,
+                                                                                                                      "ShowOnce": false,
+                                                                                                                      "IsChild": false,
+                                                                                                                      "conditions": []
+                                                                                                                    }
+                                                                                                                  ],
+                                                                                                                  "subNodes": [
+                                                                                                                    {
+                                                                                                                      "idNum": 73,
+                                                                                                                      "pcNode": true,
+                                                                                                                      "linkTo": 0,
+                                                                                                                      "ShowOnlyOnce": false,
+                                                                                                                      "NodeIsActive": true,
+                                                                                                                      "NodePortraitBitmap": "",
+                                                                                                                      "NodeNpcName": "",
+                                                                                                                      "conversationText": "Continue",
+                                                                                                                      "IsExpanded": true,
+                                                                                                                      "subnodePointer": [],
+                                                                                                                      "syncStructs": [
+                                                                                                                        {
+                                                                                                                          "Index": 16,
+                                                                                                                          "ShowOnce": false,
+                                                                                                                          "IsChild": false,
+                                                                                                                          "conditions": []
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "Index": 17,
+                                                                                                                          "ShowOnce": false,
+                                                                                                                          "IsChild": true,
+                                                                                                                          "conditions": []
+                                                                                                                        }
+                                                                                                                      ],
+                                                                                                                      "subNodes": [
+                                                                                                                        {
+                                                                                                                          "idNum": 17,
+                                                                                                                          "pcNode": false,
+                                                                                                                          "linkTo": 0,
+                                                                                                                          "ShowOnlyOnce": false,
+                                                                                                                          "NodeIsActive": true,
+                                                                                                                          "NodePortraitBitmap": "ptr_ianth",
+                                                                                                                          "NodeNpcName": "Ianth",
+                                                                                                                          "conversationText": "Indeed, Gossam Thistlefall, it is good to have a cleric among us--and Sheela Peryroyl shares some aspects with my goddess, Sune. ",
+                                                                                                                          "IsExpanded": true,
+                                                                                                                          "subnodePointer": [],
+                                                                                                                          "syncStructs": [
+                                                                                                                            {
+                                                                                                                              "Index": 24,
+                                                                                                                              "ShowOnce": false,
+                                                                                                                              "IsChild": false,
+                                                                                                                              "conditions": []
+                                                                                                                            }
+                                                                                                                          ],
+                                                                                                                          "subNodes": [
+                                                                                                                            {
+                                                                                                                              "idNum": 74,
+                                                                                                                              "pcNode": true,
+                                                                                                                              "linkTo": 0,
+                                                                                                                              "ShowOnlyOnce": false,
+                                                                                                                              "NodeIsActive": true,
+                                                                                                                              "NodePortraitBitmap": "",
+                                                                                                                              "NodeNpcName": "",
+                                                                                                                              "conversationText": "Continue",
+                                                                                                                              "IsExpanded": true,
+                                                                                                                              "subnodePointer": [],
+                                                                                                                              "syncStructs": [
+                                                                                                                                {
+                                                                                                                                  "Index": 17,
+                                                                                                                                  "ShowOnce": false,
+                                                                                                                                  "IsChild": false,
+                                                                                                                                  "conditions": []
+                                                                                                                                }
+                                                                                                                              ],
+                                                                                                                              "subNodes": [
+                                                                                                                                {
+                                                                                                                                  "idNum": 18,
+                                                                                                                                  "pcNode": false,
+                                                                                                                                  "linkTo": 0,
+                                                                                                                                  "ShowOnlyOnce": false,
+                                                                                                                                  "NodeIsActive": true,
+                                                                                                                                  "NodePortraitBitmap": "",
+                                                                                                                                  "NodeNpcName": "",
+                                                                                                                                  "conversationText": "Thank you, and let us be on our way.  And if you don't mind, I'd like to hear <i>your</i> story so far, <FirstName>.  I am sure that whatever adventure you are on is at <i>least</i> as grand as mine.",
+                                                                                                                                  "IsExpanded": true,
+                                                                                                                                  "subnodePointer": [],
+                                                                                                                                  "syncStructs": [
+                                                                                                                                    {
+                                                                                                                                      "Index": 25,
+                                                                                                                                      "ShowOnce": false,
+                                                                                                                                      "IsChild": false,
+                                                                                                                                      "conditions": []
+                                                                                                                                    }
+                                                                                                                                  ],
+                                                                                                                                  "subNodes": [
+                                                                                                                                    {
+                                                                                                                                      "idNum": 75,
+                                                                                                                                      "pcNode": true,
+                                                                                                                                      "linkTo": 0,
+                                                                                                                                      "ShowOnlyOnce": false,
+                                                                                                                                      "NodeIsActive": true,
+                                                                                                                                      "NodePortraitBitmap": "",
+                                                                                                                                      "NodeNpcName": "",
+                                                                                                                                      "conversationText": "Of course.  I'll speak as we walk.",
+                                                                                                                                      "IsExpanded": true,
+                                                                                                                                      "subnodePointer": [],
+                                                                                                                                      "syncStructs": [],
+                                                                                                                                      "subNodes": [],
+                                                                                                                                      "actions": [],
+                                                                                                                                      "conditions": [],
+                                                                                                                                      "isLink": false
+                                                                                                                                    }
+                                                                                                                                  ],
+                                                                                                                                  "actions": [],
+                                                                                                                                  "conditions": [],
+                                                                                                                                  "isLink": false
+                                                                                                                                }
+                                                                                                                              ],
+                                                                                                                              "actions": [],
+                                                                                                                              "conditions": [],
+                                                                                                                              "isLink": false
+                                                                                                                            }
+                                                                                                                          ],
+                                                                                                                          "actions": [],
+                                                                                                                          "conditions": [],
+                                                                                                                          "isLink": false
+                                                                                                                        },
+                                                                                                                        {
+                                                                                                                          "idNum": 100559,
+                                                                                                                          "pcNode": true,
+                                                                                                                          "linkTo": 18,
+                                                                                                                          "ShowOnlyOnce": false,
+                                                                                                                          "NodeIsActive": true,
+                                                                                                                          "NodePortraitBitmap": "",
+                                                                                                                          "NodeNpcName": "",
+                                                                                                                          "conversationText": "Continue",
+                                                                                                                          "IsExpanded": true,
+                                                                                                                          "subnodePointer": [],
+                                                                                                                          "syncStructs": [],
+                                                                                                                          "subNodes": [],
+                                                                                                                          "actions": [],
+                                                                                                                          "conditions": [],
+                                                                                                                          "isLink": true
+                                                                                                                        }
+                                                                                                                      ],
+                                                                                                                      "actions": [],
+                                                                                                                      "conditions": [],
+                                                                                                                      "isLink": false
+                                                                                                                    }
+                                                                                                                  ],
+                                                                                                                  "actions": [],
+                                                                                                                  "conditions": [],
+                                                                                                                  "isLink": false
+                                                                                                                }
+                                                                                                              ],
+                                                                                                              "actions": [],
+                                                                                                              "conditions": [],
+                                                                                                              "isLink": false
+                                                                                                            }
+                                                                                                          ],
+                                                                                                          "actions": [],
+                                                                                                          "conditions": [],
+                                                                                                          "isLink": false
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "actions": [],
+                                                                                                      "conditions": [],
+                                                                                                      "isLink": false
+                                                                                                    },
+                                                                                                    {
+                                                                                                      "idNum": 70,
+                                                                                                      "pcNode": true,
+                                                                                                      "linkTo": 0,
+                                                                                                      "ShowOnlyOnce": false,
+                                                                                                      "NodeIsActive": true,
+                                                                                                      "NodePortraitBitmap": "",
+                                                                                                      "NodeNpcName": "",
+                                                                                                      "conversationText": "Not at the moment.  Perhaps in the future.",
+                                                                                                      "IsExpanded": true,
+                                                                                                      "subnodePointer": [],
+                                                                                                      "syncStructs": [
+                                                                                                        {
+                                                                                                          "Index": 13,
+                                                                                                          "ShowOnce": false,
+                                                                                                          "IsChild": false,
+                                                                                                          "conditions": []
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "subNodes": [
+                                                                                                        {
+                                                                                                          "idNum": 14,
+                                                                                                          "pcNode": false,
+                                                                                                          "linkTo": 0,
+                                                                                                          "ShowOnlyOnce": false,
+                                                                                                          "NodeIsActive": true,
+                                                                                                          "NodePortraitBitmap": "",
+                                                                                                          "NodeNpcName": "",
+                                                                                                          "conversationText": "Very well.  If you change your mind, you will find me here.",
+                                                                                                          "IsExpanded": true,
+                                                                                                          "subnodePointer": [],
+                                                                                                          "syncStructs": [
+                                                                                                            {
+                                                                                                              "Index": 21,
+                                                                                                              "ShowOnce": false,
+                                                                                                              "IsChild": false,
+                                                                                                              "conditions": []
+                                                                                                            }
+                                                                                                          ],
+                                                                                                          "subNodes": [
+                                                                                                            {
+                                                                                                              "idNum": 71,
+                                                                                                              "pcNode": true,
+                                                                                                              "linkTo": 0,
+                                                                                                              "ShowOnlyOnce": false,
+                                                                                                              "NodeIsActive": true,
+                                                                                                              "NodePortraitBitmap": "",
+                                                                                                              "NodeNpcName": "",
+                                                                                                              "conversationText": "Very well.  Farewell, Gossam.",
+                                                                                                              "IsExpanded": true,
+                                                                                                              "subnodePointer": [],
+                                                                                                              "syncStructs": [],
+                                                                                                              "subNodes": [],
+                                                                                                              "actions": [],
+                                                                                                              "conditions": [],
+                                                                                                              "isLink": false
+                                                                                                            }
+                                                                                                          ],
+                                                                                                          "actions": [],
+                                                                                                          "conditions": [],
+                                                                                                          "isLink": false
+                                                                                                        }
+                                                                                                      ],
+                                                                                                      "actions": [],
+                                                                                                      "conditions": [],
+                                                                                                      "isLink": false
+                                                                                                    }
+                                                                                                  ],
+                                                                                                  "actions": [],
+                                                                                                  "conditions": [],
+                                                                                                  "isLink": false
+                                                                                                }
+                                                                                              ],
+                                                                                              "actions": [],
+                                                                                              "conditions": [],
+                                                                                              "isLink": false
+                                                                                            }
+                                                                                          ],
+                                                                                          "actions": [],
+                                                                                          "conditions": [],
+                                                                                          "isLink": false
+                                                                                        }
+                                                                                      ],
+                                                                                      "actions": [],
+                                                                                      "conditions": [],
+                                                                                      "isLink": false
+                                                                                    }
+                                                                                  ],
+                                                                                  "actions": [],
+                                                                                  "conditions": [],
+                                                                                  "isLink": false
+                                                                                }
+                                                                              ],
+                                                                              "actions": [],
+                                                                              "conditions": [],
+                                                                              "isLink": false
+                                                                            }
+                                                                          ],
+                                                                          "actions": [],
+                                                                          "conditions": [],
+                                                                          "isLink": false
+                                                                        }
+                                                                      ],
+                                                                      "actions": [],
+                                                                      "conditions": [],
+                                                                      "isLink": false
+                                                                    },
+                                                                    {
+                                                                      "idNum": 61,
+                                                                      "pcNode": true,
+                                                                      "linkTo": 0,
+                                                                      "ShowOnlyOnce": false,
+                                                                      "NodeIsActive": true,
+                                                                      "NodePortraitBitmap": "",
+                                                                      "NodeNpcName": "",
+                                                                      "conversationText": "I agree with you, Gossam.  Nature can teach us much.",
+                                                                      "IsExpanded": true,
+                                                                      "subnodePointer": [],
+                                                                      "syncStructs": [
+                                                                        {
+                                                                          "Index": 8,
+                                                                          "ShowOnce": false,
+                                                                          "IsChild": true,
+                                                                          "conditions": []
+                                                                        }
+                                                                      ],
+                                                                      "subNodes": [
+                                                                        {
+                                                                          "idNum": 100560,
+                                                                          "pcNode": true,
+                                                                          "linkTo": 9,
+                                                                          "ShowOnlyOnce": false,
+                                                                          "NodeIsActive": true,
+                                                                          "NodePortraitBitmap": "",
+                                                                          "NodeNpcName": "",
+                                                                          "conversationText": "Continue",
+                                                                          "IsExpanded": true,
+                                                                          "subnodePointer": [],
+                                                                          "syncStructs": [],
+                                                                          "subNodes": [],
+                                                                          "actions": [],
+                                                                          "conditions": [],
+                                                                          "isLink": true
+                                                                        }
+                                                                      ],
+                                                                      "actions": [],
+                                                                      "conditions": [],
+                                                                      "isLink": false
+                                                                    },
+                                                                    {
+                                                                      "idNum": 62,
+                                                                      "pcNode": true,
+                                                                      "linkTo": 0,
+                                                                      "ShowOnlyOnce": false,
+                                                                      "NodeIsActive": true,
+                                                                      "NodePortraitBitmap": "",
+                                                                      "NodeNpcName": "",
+                                                                      "conversationText": "I have to agree with Oudin.  I prefer art to nature.",
+                                                                      "IsExpanded": true,
+                                                                      "subnodePointer": [],
+                                                                      "syncStructs": [
+                                                                        {
+                                                                          "Index": 9,
+                                                                          "ShowOnce": false,
+                                                                          "IsChild": false,
+                                                                          "conditions": []
+                                                                        }
+                                                                      ],
+                                                                      "subNodes": [
+                                                                        {
+                                                                          "idNum": 10,
+                                                                          "pcNode": false,
+                                                                          "linkTo": 0,
+                                                                          "ShowOnlyOnce": false,
+                                                                          "NodeIsActive": true,
+                                                                          "NodePortraitBitmap": "",
+                                                                          "NodeNpcName": "",
+                                                                          "conversationText": "Well, it is certainly not a matter that will be decided today.",
+                                                                          "IsExpanded": true,
+                                                                          "subnodePointer": [],
+                                                                          "syncStructs": [
+                                                                            {
+                                                                              "Index": 16,
+                                                                              "ShowOnce": false,
+                                                                              "IsChild": false,
+                                                                              "conditions": []
+                                                                            }
+                                                                          ],
+                                                                          "subNodes": [
+                                                                            {
+                                                                              "idNum": 66,
+                                                                              "pcNode": true,
+                                                                              "linkTo": 0,
+                                                                              "ShowOnlyOnce": false,
+                                                                              "NodeIsActive": true,
+                                                                              "NodePortraitBitmap": "",
+                                                                              "NodeNpcName": "",
+                                                                              "conversationText": "Continue",
+                                                                              "IsExpanded": true,
+                                                                              "subnodePointer": [],
+                                                                              "syncStructs": [
+                                                                                {
+                                                                                  "Index": 10,
+                                                                                  "ShowOnce": false,
+                                                                                  "IsChild": true,
+                                                                                  "conditions": []
+                                                                                }
+                                                                              ],
+                                                                              "subNodes": [
+                                                                                {
+                                                                                  "idNum": 100561,
+                                                                                  "pcNode": true,
+                                                                                  "linkTo": 11,
+                                                                                  "ShowOnlyOnce": false,
+                                                                                  "NodeIsActive": true,
+                                                                                  "NodePortraitBitmap": "",
+                                                                                  "NodeNpcName": "",
+                                                                                  "conversationText": "Continue",
+                                                                                  "IsExpanded": true,
+                                                                                  "subnodePointer": [],
+                                                                                  "syncStructs": [],
+                                                                                  "subNodes": [],
+                                                                                  "actions": [],
+                                                                                  "conditions": [],
+                                                                                  "isLink": true
+                                                                                }
+                                                                              ],
+                                                                              "actions": [],
+                                                                              "conditions": [],
+                                                                              "isLink": false
+                                                                            }
+                                                                          ],
+                                                                          "actions": [],
+                                                                          "conditions": [],
+                                                                          "isLink": false
+                                                                        }
+                                                                      ],
+                                                                      "actions": [],
+                                                                      "conditions": [],
+                                                                      "isLink": false
+                                                                    },
+                                                                    {
+                                                                      "idNum": 63,
+                                                                      "pcNode": true,
+                                                                      "linkTo": 0,
+                                                                      "ShowOnlyOnce": false,
+                                                                      "NodeIsActive": true,
+                                                                      "NodePortraitBitmap": "",
+                                                                      "NodeNpcName": "",
+                                                                      "conversationText": "I think that true knowledge comes from being taught by both art <i>and</i> nature.",
+                                                                      "IsExpanded": true,
+                                                                      "subnodePointer": [],
+                                                                      "syncStructs": [
+                                                                        {
+                                                                          "Index": 8,
+                                                                          "ShowOnce": false,
+                                                                          "IsChild": true,
+                                                                          "conditions": []
+                                                                        }
+                                                                      ],
+                                                                      "subNodes": [
+                                                                        {
+                                                                          "idNum": 100562,
+                                                                          "pcNode": true,
+                                                                          "linkTo": 9,
+                                                                          "ShowOnlyOnce": false,
+                                                                          "NodeIsActive": true,
+                                                                          "NodePortraitBitmap": "",
+                                                                          "NodeNpcName": "",
+                                                                          "conversationText": "Continue",
+                                                                          "IsExpanded": true,
+                                                                          "subnodePointer": [],
+                                                                          "syncStructs": [],
+                                                                          "subNodes": [],
+                                                                          "actions": [],
+                                                                          "conditions": [],
+                                                                          "isLink": true
+                                                                        }
+                                                                      ],
+                                                                      "actions": [],
+                                                                      "conditions": [],
+                                                                      "isLink": false
+                                                                    },
+                                                                    {
+                                                                      "idNum": 64,
+                                                                      "pcNode": true,
+                                                                      "linkTo": 0,
+                                                                      "ShowOnlyOnce": false,
+                                                                      "NodeIsActive": true,
+                                                                      "NodePortraitBitmap": "",
+                                                                      "NodeNpcName": "",
+                                                                      "conversationText": "[<i>Shrug.</i>]",
+                                                                      "IsExpanded": true,
+                                                                      "subnodePointer": [],
+                                                                      "syncStructs": [
+                                                                        {
+                                                                          "Index": 9,
+                                                                          "ShowOnce": false,
+                                                                          "IsChild": true,
+                                                                          "conditions": []
+                                                                        }
+                                                                      ],
+                                                                      "subNodes": [
+                                                                        {
+                                                                          "idNum": 100563,
+                                                                          "pcNode": true,
+                                                                          "linkTo": 10,
+                                                                          "ShowOnlyOnce": false,
+                                                                          "NodeIsActive": true,
+                                                                          "NodePortraitBitmap": "",
+                                                                          "NodeNpcName": "",
+                                                                          "conversationText": "Continue",
+                                                                          "IsExpanded": true,
+                                                                          "subnodePointer": [],
+                                                                          "syncStructs": [],
+                                                                          "subNodes": [],
+                                                                          "actions": [],
+                                                                          "conditions": [],
+                                                                          "isLink": true
+                                                                        }
+                                                                      ],
+                                                                      "actions": [],
+                                                                      "conditions": [],
+                                                                      "isLink": false
+                                                                    }
+                                                                  ],
+                                                                  "actions": [],
+                                                                  "conditions": [],
+                                                                  "isLink": false
+                                                                }
+                                                              ],
+                                                              "actions": [],
+                                                              "conditions": [],
+                                                              "isLink": false
+                                                            }
+                                                          ],
+                                                          "actions": [],
+                                                          "conditions": [],
+                                                          "isLink": false
+                                                        }
+                                                      ],
+                                                      "actions": [],
+                                                      "conditions": [],
+                                                      "isLink": false
+                                                    }
+                                                  ],
+                                                  "actions": [],
+                                                  "conditions": [],
+                                                  "isLink": false
+                                                }
+                                              ],
+                                              "actions": [],
+                                              "conditions": [],
+                                              "isLink": false
+                                            }
+                                          ],
+                                          "actions": [],
+                                          "conditions": [],
+                                          "isLink": false
+                                        }
+                                      ],
+                                      "actions": [],
+                                      "conditions": [],
+                                      "isLink": false
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": false
+                                }
+                              ],
+                              "actions": [],
+                              "conditions": [],
+                              "isLink": false
+                            }
+                          ],
+                          "actions": [],
+                          "conditions": [],
+                          "isLink": false
+                        }
+                      ],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            },
+            {
+              "idNum": 51,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "conversationText": "Well met.  I am <FullName>, a <class>.",
+              "IsExpanded": true,
+              "subnodePointer": [],
+              "syncStructs": [
+                {
+                  "Index": 2,
+                  "ShowOnce": false,
+                  "IsChild": true,
+                  "conditions": []
+                }
+              ],
+              "subNodes": [
+                {
+                  "idNum": 100564,
+                  "pcNode": true,
+                  "linkTo": 3,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "conversationText": "Continue",
+                  "IsExpanded": true,
+                  "subnodePointer": [],
+                  "syncStructs": [],
+                  "subNodes": [],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": true
+                }
+              ],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            },
+            {
+              "idNum": 52,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "conversationText": "<FirstName> is my name.  What are you doing here?",
+              "IsExpanded": true,
+              "subnodePointer": [],
+              "syncStructs": [
+                {
+                  "Index": 2,
+                  "ShowOnce": false,
+                  "IsChild": true,
+                  "conditions": []
+                }
+              ],
+              "subNodes": [
+                {
+                  "idNum": 100565,
+                  "pcNode": true,
+                  "linkTo": 3,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "conversationText": "Continue",
+                  "IsExpanded": true,
+                  "subnodePointer": [],
+                  "syncStructs": [],
+                  "subNodes": [],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": true
+                }
+              ],
+              "actions": [],
+              "conditions": [],
+              "isLink": false
+            }
+          ],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 19,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "You return, I hope, because you want me to travel with you?",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [
+            {
+              "Index": 19,
+              "ShowOnce": false,
+              "IsChild": true,
+              "conditions": []
+            },
+            {
+              "Index": 20,
+              "ShowOnce": false,
+              "IsChild": true,
+              "conditions": []
+            }
+          ],
+          "subNodes": [
+            {
+              "idNum": 69,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "conversationText": "Yes, Gossam.",
+              "IsExpanded": true,
+              "subnodePointer": [],
+              "syncStructs": [
+                {
+                  "Index": 14,
+                  "ShowOnce": false,
+                  "IsChild": false,
+                  "conditions": []
+                }
+              ],
+              "subNodes": [
+                {
+                  "idNum": 15,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "conversationText": "Excellent!  My own task certainly isn't urgent, but if you'd like, we can head to Northdark Wood to look for flora--I'll give you a list of the plants I am looking for.",
+                  "IsExpanded": true,
+                  "subnodePointer": [],
+                  "syncStructs": [
+                    {
+                      "Index": 22,
+                      "ShowOnce": false,
+                      "IsChild": false,
+                      "conditions": []
+                    }
+                  ],
+                  "subNodes": [
+                    {
+                      "idNum": 72,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "conversationText": "Continue",
+                      "IsExpanded": true,
+                      "subnodePointer": [],
+                      "syncStructs": [
+                        {
+                          "Index": 15,
+                          "ShowOnce": false,
+                          "IsChild": false,
+                          "conditions": []
+                        }
+                      ],
+                      "subNodes": [
+                        {
+                          "idNum": 16,
+                          "pcNode": false,
+                          "linkTo": 0,
+                          "ShowOnlyOnce": false,
+                          "NodeIsActive": true,
+                          "NodePortraitBitmap": "ptr_vroman",
+                          "NodeNpcName": "Vroman",
+                          "conversationText": "I am glad to have you join us, halfling.  I have a passing interest in <i>certain</i> plants myself.",
+                          "IsExpanded": true,
+                          "subnodePointer": [],
+                          "syncStructs": [
+                            {
+                              "Index": 23,
+                              "ShowOnce": false,
+                              "IsChild": false,
+                              "conditions": []
+                            }
+                          ],
+                          "subNodes": [
+                            {
+                              "idNum": 73,
+                              "pcNode": true,
+                              "linkTo": 0,
+                              "ShowOnlyOnce": false,
+                              "NodeIsActive": true,
+                              "NodePortraitBitmap": "",
+                              "NodeNpcName": "",
+                              "conversationText": "Continue",
+                              "IsExpanded": true,
+                              "subnodePointer": [],
+                              "syncStructs": [
+                                {
+                                  "Index": 16,
+                                  "ShowOnce": false,
+                                  "IsChild": false,
+                                  "conditions": []
+                                },
+                                {
+                                  "Index": 17,
+                                  "ShowOnce": false,
+                                  "IsChild": true,
+                                  "conditions": []
+                                }
+                              ],
+                              "subNodes": [
+                                {
+                                  "idNum": 17,
+                                  "pcNode": false,
+                                  "linkTo": 0,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "ptr_ianth",
+                                  "NodeNpcName": "Ianth",
+                                  "conversationText": "Indeed, Gossam Thistlefall, it is good to have a cleric among us--and Sheela Peryroyl shares some aspects with my goddess, Sune. ",
+                                  "IsExpanded": true,
+                                  "subnodePointer": [],
+                                  "syncStructs": [
+                                    {
+                                      "Index": 24,
+                                      "ShowOnce": false,
+                                      "IsChild": false,
+                                      "conditions": []
+                                    }
+                                  ],
+                                  "subNodes": [
+                                    {
+                                      "idNum": 74,
+                                      "pcNode": true,
+                                      "linkTo": 0,
+                                      "ShowOnlyOnce": false,
+                                      "NodeIsActive": true,
+                                      "NodePortraitBitmap": "",
+                                      "NodeNpcName": "",
+                                      "conversationText": "Continue",
+                                      "IsExpanded": true,
+                                      "subnodePointer": [],
+                                      "syncStructs": [
+                                        {
+                                          "Index": 17,
+                                          "ShowOnce": false,
+                                          "IsChild": false,
+                                          "conditions": []
+                                        }
+                                      ],
+                                      "subNodes": [
+                                        {
+                                          "idNum": 18,
+                                          "pcNode": false,
+                                          "linkTo": 0,
+                                          "ShowOnlyOnce": false,
+                                          "NodeIsActive": true,
+                                          "NodePortraitBitmap": "",
+                                          "NodeNpcName": "",
+                                          "conversationText": "Thank you, and let us be on our way.  And if you don't mind, I'd like to hear <i>your</i> story so far, <FirstName>.  I am sure that whatever adventure you are on is at <i>least</i> as grand as mine.",
+                                          "IsExpanded": true,
+                                          "subnodePointer": [],
+                                          "syncStructs": [
+                                            {
+                                              "Index": 25,
+                                              "ShowOnce": false,
+                                              "IsChild": false,
+                                              "conditions": []
+                                            }
+                                          ],
+                                          "subNodes": [
+                                            {
+                                              "idNum": 75,
+                                              "pcNode": true,
+                                              "linkTo": 0,
+                                              "ShowOnlyOnce": false,
+                                              "NodeIsActive": true,
+                                              "NodePortraitBitmap": "",
+                                              "NodeNpcName": "",
+                                              "conversationText": "Of course.  I'll speak as we walk.",
+                                              "IsExpanded": true,
+                                              "subnodePointer": [],
+                                              "syncStructs": [],
+                                              "subNodes": [],
+                                              "actions": [],
+                                              "conditions": [],
+                                              "isLink": false
+                                            }
+                                          ],
+                                          "actions": [],
+                                          "conditions": [],
+                                          "isLink": false
+                                        }
+                                      ],
+                                      "actions": [],
+                                      "conditions": [],
+                                      "isLink": false
+                                    }
+                                  ],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": false
+                                },
+                                {
+                                  "idNum": 100566,
+                                  "pcNode": true,
+                                  "linkTo": 18,
+                                  "ShowOnlyOnce": false,
+                                  "NodeIsActive": true,
+                                  "NodePortraitBitmap": "",
+                                  "NodeNpcName": "",
+                                  "conversationText": "Continue",
+                                  "IsExpanded": true,
+                                  "subnodePointer": [],
+                                  "syncStructs": [],
+                                  "subNodes": [],
+                                  "actions": [],
+                                  "conditions": [],
+                                  "isLink": true
+                                }
+                              ],
+                              "actions": [],
+                              "conditions": [],
+                              "isLink": false
+                            }
+                          ],
+                          "actions": [],
+                          "conditions": [],
+                          "isLink": false
+                        }
+                      ],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [],
+              "conditions": [],
+              "isLink": true
+            },
+            {
+              "idNum": 70,
+              "pcNode": true,
+              "linkTo": 0,
+              "ShowOnlyOnce": false,
+              "NodeIsActive": true,
+              "NodePortraitBitmap": "",
+              "NodeNpcName": "",
+              "conversationText": "Not at the moment.  Perhaps in the future.",
+              "IsExpanded": true,
+              "subnodePointer": [],
+              "syncStructs": [
+                {
+                  "Index": 13,
+                  "ShowOnce": false,
+                  "IsChild": false,
+                  "conditions": []
+                }
+              ],
+              "subNodes": [
+                {
+                  "idNum": 14,
+                  "pcNode": false,
+                  "linkTo": 0,
+                  "ShowOnlyOnce": false,
+                  "NodeIsActive": true,
+                  "NodePortraitBitmap": "",
+                  "NodeNpcName": "",
+                  "conversationText": "Very well.  If you change your mind, you will find me here.",
+                  "IsExpanded": true,
+                  "subnodePointer": [],
+                  "syncStructs": [
+                    {
+                      "Index": 21,
+                      "ShowOnce": false,
+                      "IsChild": false,
+                      "conditions": []
+                    }
+                  ],
+                  "subNodes": [
+                    {
+                      "idNum": 71,
+                      "pcNode": true,
+                      "linkTo": 0,
+                      "ShowOnlyOnce": false,
+                      "NodeIsActive": true,
+                      "NodePortraitBitmap": "",
+                      "NodeNpcName": "",
+                      "conversationText": "Very well.  Farewell, Gossam.",
+                      "IsExpanded": true,
+                      "subnodePointer": [],
+                      "syncStructs": [],
+                      "subNodes": [],
+                      "actions": [],
+                      "conditions": [],
+                      "isLink": false
+                    }
+                  ],
+                  "actions": [],
+                  "conditions": [],
+                  "isLink": false
+                }
+              ],
+              "actions": [],
+              "conditions": [],
+              "isLink": true
+            }
+          ],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 20,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Those who worship Sheela Peryroyl also call her the Green Sister or the Watchful Mother.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 21,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "I respect and admire druids, but feel that there is as much beauty in nature <i>cultivated</i> as there is in nature uncultivated.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 22,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "I hope that my church in Corm Orp is doing well.  I shall have to return there after our adventures.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 23,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Vroman is a fine gentleman--courteous and urbane--though, I must say, a little on the diffident side.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 24,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Mistress Ianth is truly nobility; that much is plain.  It is strange to have found such a person is so small a place as Drawn Swords.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 25,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Those who follow Sheela Peryroyl are called \"Green Children.\"",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 26,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Sheela Peryroyl is known among the Faerunian deities for her level head; I like to think that I emulate her in this respect.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 27,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Nature is not chaos; it is full of designs both great and small.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 28,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "I do love this time of year.  Wine, ale, and honey flow; the leaves fall in heaps of red and gold; the air is as crisp and cool as good water.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 29,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Uncle Asterchord is a knowledgeable old halfling, though I think it would do him good to get out-of-doors once in a while.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 30,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "I spent half of my youth in Gullykin, on the Sword Coast, and half in Corm Orp, in Sunset Vale.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 31,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "My greatest accomplishment as a cleric militant of the Watchful Mother was a shot from my sling that felled an orc who had been pillaging woodlands in Sunset Vale.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 32,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "I have always been a solitary sort of person, but I must admit that I enjoy your company very much, <FirstName>.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 33,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "The seasons are the goddess's way of reminding us that nature is steadfast even as she is mutable.  So, too, should we be at once faithful to ourselves and amenable to circumstance.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 34,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Though I love the autumn, I'm also partial to winter--and to spring, and to summer!  All the seasons have their beauty.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 35,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Some day I would like to travel to Luiren, land of the halflings.  But for now I am content to drink the wonderful wheat beer that comes thence.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 36,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "The snow is always deep in Sunset Vale--and for halflings, twice as deep as it is for bigger folk!",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 37,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "To what do we owe our great cities, our small towns, our daily bread?  To the bounty of the Green Sister.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 38,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "My mother and father both dwell in Corm Orp.  Uncle Asterchord is my mother's brother; I have no siblings.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 39,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "The elves of Evereska sometimes have occasion to range as far south as Sunset Vale; I have met a few on the Sunset Trail.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 40,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "I have been through Berdusk and Iriaebor, but do not like big cities very much.  I even find Beregost overwhelming!",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 41,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "It has been a long time since I saw the sea...Once, as a youth...It is full of alien majesty!  But I suppose it would not surprise you to hear that I prefer the green woods and fields.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 42,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "I am always happy to spend a few moments chatting with you, <FirstName>.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 43,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "I always wonder at those who live in despair at what they perceive as the world's great disorder--Do they not see the happy blessings of the Green Sister all around them?",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 44,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "In the spring, the children of Corm Orp flee to the valleys of the woods to hunt for morels; in early summer, they go to the fields to look for strawberries.  Ah, to be a child again!",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 45,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "There is nothing like the drone of bees on a warm day in early summer; even the thought warms me now, as the year draws to a close.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 46,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "I like ale and wine, but do not have a great use for stronger spirits.  I must make an exception for Candlekeep cordial, though.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 47,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "Have you ever taken a look at Uncle Asterchord's books?  He has some marvelous tomes--perhaps even ones that would be helpful to us.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 48,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "One of Uncle Asterchord's most prized possessions is the \"Ace of Coins.\"  If you're curious, you should take a look at it next time we have occasion to shop.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        },
+        {
+          "idNum": 49,
+          "pcNode": false,
+          "linkTo": 0,
+          "ShowOnlyOnce": false,
+          "NodeIsActive": true,
+          "NodePortraitBitmap": "",
+          "NodeNpcName": "",
+          "conversationText": "I love identifying, pressing, and documenting strange species of plant.  I feel that the Green Sister smiles on my study; I never take more than a small specimen for my research.",
+          "IsExpanded": true,
+          "subnodePointer": [],
+          "syncStructs": [],
+          "subNodes": [],
+          "actions": [],
+          "conditions": [],
+          "isLink": false
+        }
+      ],
+      "actions": [],
+      "conditions": [],
+      "isLink": false
+    }
+  ]
+}

@@ -53,7 +53,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Action.cs" />
     <Compile Include="Area.cs" />
+    <Compile Include="Condition.cs" />
+    <Compile Include="ContentNode.cs" />
+    <Compile Include="Convo.cs" />
     <Compile Include="Creature.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -61,7 +65,14 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="GffField.cs" />
+    <Compile Include="GffFile.cs" />
+    <Compile Include="GffHeader.cs" />
+    <Compile Include="GffList.cs" />
+    <Compile Include="GffStruct.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="JournalEntry.cs" />
+    <Compile Include="JournalQuest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Prop.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
